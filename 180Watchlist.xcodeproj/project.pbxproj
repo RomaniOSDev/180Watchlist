@@ -3,33 +3,129 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		304DF4192FD9F71A008B6291 /* AppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF3D82FD9F71A008B6291 /* AppLinks.swift */; };
+		304DF41A2FD9F71A008B6291 /* Franchise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF3D92FD9F71A008B6291 /* Franchise.swift */; };
+		304DF41B2FD9F71A008B6291 /* MediaCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF3DA2FD9F71A008B6291 /* MediaCollection.swift */; };
+		304DF41C2FD9F71A008B6291 /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF3DB2FD9F71A008B6291 /* OnboardingPage.swift */; };
+		304DF41D2FD9F71A008B6291 /* WatchGoalSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF3DC2FD9F71A008B6291 /* WatchGoalSettings.swift */; };
+		304DF41E2FD9F71A008B6291 /* WatchlistFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF3DD2FD9F71A008B6291 /* WatchlistFilter.swift */; };
+		304DF41F2FD9F71A008B6291 /* WatchlistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF3DE2FD9F71A008B6291 /* WatchlistModel.swift */; };
+		304DF4202FD9F71A008B6291 /* WatchlistNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF3DF2FD9F71A008B6291 /* WatchlistNavigation.swift */; };
+		304DF4212FD9F71A008B6291 /* WatchNoteEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF3E02FD9F71A008B6291 /* WatchNoteEntry.swift */; };
+		304DF4222FD9F71A008B6291 /* AppActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF3E22FD9F71A008B6291 /* AppActions.swift */; };
+		304DF4232FD9F71A008B6291 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF3E32FD9F71A008B6291 /* NotificationService.swift */; };
+		304DF4242FD9F71A008B6291 /* OnboardingStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF3E42FD9F71A008B6291 /* OnboardingStorageService.swift */; };
+		304DF4252FD9F71A008B6291 /* WatchlistStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF3E52FD9F71A008B6291 /* WatchlistStorageService.swift */; };
+		304DF4262FD9F71A008B6291 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF3E72FD9F71A008B6291 /* AppTheme.swift */; };
+		304DF4272FD9F71A008B6291 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF3E82FD9F71A008B6291 /* DesignSystem.swift */; };
+		304DF4282FD9F71A008B6291 /* WatchlistViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF3EA2FD9F71A008B6291 /* WatchlistViewModel.swift */; };
+		304DF4292FD9F71A008B6291 /* ActivityHeatmapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF3EC2FD9F71A008B6291 /* ActivityHeatmapView.swift */; };
+		304DF42A2FD9F71A008B6291 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF3ED2FD9F71A008B6291 /* CustomTabBar.swift */; };
+		304DF42B2FD9F71A008B6291 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF3EE2FD9F71A008B6291 /* EmptyStateView.swift */; };
+		304DF42C2FD9F71A008B6291 /* EpisodeChecklistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF3EF2FD9F71A008B6291 /* EpisodeChecklistView.swift */; };
+		304DF42D2FD9F71A008B6291 /* FeaturesMenuSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF3F02FD9F71A008B6291 /* FeaturesMenuSheet.swift */; };
+		304DF42E2FD9F71A008B6291 /* FormComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF3F12FD9F71A008B6291 /* FormComponents.swift */; };
+		304DF42F2FD9F71A008B6291 /* GenreBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF3F22FD9F71A008B6291 /* GenreBadgeView.swift */; };
+		304DF4302FD9F71A008B6291 /* HomeWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF3F32FD9F71A008B6291 /* HomeWidgets.swift */; };
+		304DF4312FD9F71A008B6291 /* ListCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF3F42FD9F71A008B6291 /* ListCells.swift */; };
+		304DF4322FD9F71A008B6291 /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF3F52FD9F71A008B6291 /* MainTabBar.swift */; };
+		304DF4332FD9F71A008B6291 /* PosterImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF3F62FD9F71A008B6291 /* PosterImageView.swift */; };
+		304DF4342FD9F71A008B6291 /* ShareCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF3F72FD9F71A008B6291 /* ShareCardView.swift */; };
+		304DF4352FD9F71A008B6291 /* StarRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF3F82FD9F71A008B6291 /* StarRatingView.swift */; };
+		304DF4362FD9F71A008B6291 /* StatsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF3F92FD9F71A008B6291 /* StatsCardView.swift */; };
+		304DF4372FD9F71A008B6291 /* StatusBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF3FA2FD9F71A008B6291 /* StatusBadgeView.swift */; };
+		304DF4382FD9F71A008B6291 /* TagBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF3FB2FD9F71A008B6291 /* TagBadgeView.swift */; };
+		304DF4392FD9F71A008B6291 /* WatchlistCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF3FC2FD9F71A008B6291 /* WatchlistCardView.swift */; };
+		304DF43A2FD9F71A008B6291 /* CollectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF3FE2FD9F71A008B6291 /* CollectionsView.swift */; };
+		304DF43B2FD9F71A008B6291 /* FilterSortSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF3FF2FD9F71A008B6291 /* FilterSortSheet.swift */; };
+		304DF43C2FD9F71A008B6291 /* FranchiseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF4002FD9F71A008B6291 /* FranchiseView.swift */; };
+		304DF43D2FD9F71A008B6291 /* GoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF4012FD9F71A008B6291 /* GoalsView.swift */; };
+		304DF43E2FD9F71A008B6291 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF4022FD9F71A008B6291 /* HomeView.swift */; };
+		304DF43F2FD9F71A008B6291 /* MonthlyWrapUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF4032FD9F71A008B6291 /* MonthlyWrapUpView.swift */; };
+		304DF4402FD9F71A008B6291 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF4042FD9F71A008B6291 /* OnboardingView.swift */; };
+		304DF4412FD9F71A008B6291 /* PickForMeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF4052FD9F71A008B6291 /* PickForMeView.swift */; };
+		304DF4422FD9F71A008B6291 /* QuickAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF4062FD9F71A008B6291 /* QuickAddView.swift */; };
+		304DF4432FD9F71A008B6291 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF4072FD9F71A008B6291 /* SettingsView.swift */; };
+		304DF4442FD9F71A008B6291 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF4082FD9F71A008B6291 /* StatsView.swift */; };
+		304DF4452FD9F71A008B6291 /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF4092FD9F71A008B6291 /* TimelineView.swift */; };
+		304DF4462FD9F71A008B6291 /* WatchlistDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF40A2FD9F71A008B6291 /* WatchlistDetailView.swift */; };
+		304DF4472FD9F71A008B6291 /* WatchlistFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF40B2FD9F71A008B6291 /* WatchlistFormView.swift */; };
+		304DF4482FD9F71A008B6291 /* WatchlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF40C2FD9F71A008B6291 /* WatchlistView.swift */; };
+		304DF4492FD9F71A008B6291 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF40E2FD9F71A008B6291 /* AppDelegate.swift */; };
+		304DF44A2FD9F71A008B6291 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF4102FD9F71A008B6291 /* ContentView.swift */; };
+		304DF44B2FD9F71A008B6291 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF4162FD9F71A008B6291 /* SceneDelegate.swift */; };
+		304DF44C2FD9F71A008B6291 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DF4172FD9F71A008B6291 /* ViewController.swift */; };
+		304DF44D2FD9F71A008B6291 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 304DF40F2FD9F71A008B6291 /* Assets.xcassets */; };
+		304DF44F2FD9F71A008B6291 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 304DF4132FD9F71A008B6291 /* LaunchScreen.storyboard */; };
+		304DF4502FD9F71A008B6291 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 304DF4152FD9F71A008B6291 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		166798399F24BF62DE342C57 /* Pods-180Watchlist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-180Watchlist.release.xcconfig"; path = "Target Support Files/Pods-180Watchlist/Pods-180Watchlist.release.xcconfig"; sourceTree = "<group>"; };
 		301FD43D2FD72A8D0019443E /* 180Watchlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 180Watchlist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		304DF3D82FD9F71A008B6291 /* AppLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLinks.swift; sourceTree = "<group>"; };
+		304DF3D92FD9F71A008B6291 /* Franchise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Franchise.swift; sourceTree = "<group>"; };
+		304DF3DA2FD9F71A008B6291 /* MediaCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaCollection.swift; sourceTree = "<group>"; };
+		304DF3DB2FD9F71A008B6291 /* OnboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
+		304DF3DC2FD9F71A008B6291 /* WatchGoalSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchGoalSettings.swift; sourceTree = "<group>"; };
+		304DF3DD2FD9F71A008B6291 /* WatchlistFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistFilter.swift; sourceTree = "<group>"; };
+		304DF3DE2FD9F71A008B6291 /* WatchlistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistModel.swift; sourceTree = "<group>"; };
+		304DF3DF2FD9F71A008B6291 /* WatchlistNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistNavigation.swift; sourceTree = "<group>"; };
+		304DF3E02FD9F71A008B6291 /* WatchNoteEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchNoteEntry.swift; sourceTree = "<group>"; };
+		304DF3E22FD9F71A008B6291 /* AppActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppActions.swift; sourceTree = "<group>"; };
+		304DF3E32FD9F71A008B6291 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		304DF3E42FD9F71A008B6291 /* OnboardingStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingStorageService.swift; sourceTree = "<group>"; };
+		304DF3E52FD9F71A008B6291 /* WatchlistStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistStorageService.swift; sourceTree = "<group>"; };
+		304DF3E72FD9F71A008B6291 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		304DF3E82FD9F71A008B6291 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		304DF3EA2FD9F71A008B6291 /* WatchlistViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistViewModel.swift; sourceTree = "<group>"; };
+		304DF3EC2FD9F71A008B6291 /* ActivityHeatmapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityHeatmapView.swift; sourceTree = "<group>"; };
+		304DF3ED2FD9F71A008B6291 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		304DF3EE2FD9F71A008B6291 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		304DF3EF2FD9F71A008B6291 /* EpisodeChecklistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeChecklistView.swift; sourceTree = "<group>"; };
+		304DF3F02FD9F71A008B6291 /* FeaturesMenuSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesMenuSheet.swift; sourceTree = "<group>"; };
+		304DF3F12FD9F71A008B6291 /* FormComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormComponents.swift; sourceTree = "<group>"; };
+		304DF3F22FD9F71A008B6291 /* GenreBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreBadgeView.swift; sourceTree = "<group>"; };
+		304DF3F32FD9F71A008B6291 /* HomeWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWidgets.swift; sourceTree = "<group>"; };
+		304DF3F42FD9F71A008B6291 /* ListCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCells.swift; sourceTree = "<group>"; };
+		304DF3F52FD9F71A008B6291 /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
+		304DF3F62FD9F71A008B6291 /* PosterImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterImageView.swift; sourceTree = "<group>"; };
+		304DF3F72FD9F71A008B6291 /* ShareCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareCardView.swift; sourceTree = "<group>"; };
+		304DF3F82FD9F71A008B6291 /* StarRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRatingView.swift; sourceTree = "<group>"; };
+		304DF3F92FD9F71A008B6291 /* StatsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsCardView.swift; sourceTree = "<group>"; };
+		304DF3FA2FD9F71A008B6291 /* StatusBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBadgeView.swift; sourceTree = "<group>"; };
+		304DF3FB2FD9F71A008B6291 /* TagBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagBadgeView.swift; sourceTree = "<group>"; };
+		304DF3FC2FD9F71A008B6291 /* WatchlistCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistCardView.swift; sourceTree = "<group>"; };
+		304DF3FE2FD9F71A008B6291 /* CollectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsView.swift; sourceTree = "<group>"; };
+		304DF3FF2FD9F71A008B6291 /* FilterSortSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterSortSheet.swift; sourceTree = "<group>"; };
+		304DF4002FD9F71A008B6291 /* FranchiseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FranchiseView.swift; sourceTree = "<group>"; };
+		304DF4012FD9F71A008B6291 /* GoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsView.swift; sourceTree = "<group>"; };
+		304DF4022FD9F71A008B6291 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		304DF4032FD9F71A008B6291 /* MonthlyWrapUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyWrapUpView.swift; sourceTree = "<group>"; };
+		304DF4042FD9F71A008B6291 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		304DF4052FD9F71A008B6291 /* PickForMeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickForMeView.swift; sourceTree = "<group>"; };
+		304DF4062FD9F71A008B6291 /* QuickAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickAddView.swift; sourceTree = "<group>"; };
+		304DF4072FD9F71A008B6291 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		304DF4082FD9F71A008B6291 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		304DF4092FD9F71A008B6291 /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		304DF40A2FD9F71A008B6291 /* WatchlistDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistDetailView.swift; sourceTree = "<group>"; };
+		304DF40B2FD9F71A008B6291 /* WatchlistFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistFormView.swift; sourceTree = "<group>"; };
+		304DF40C2FD9F71A008B6291 /* WatchlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistView.swift; sourceTree = "<group>"; };
+		304DF40E2FD9F71A008B6291 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		304DF40F2FD9F71A008B6291 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		304DF4102FD9F71A008B6291 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		304DF4112FD9F71A008B6291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		304DF4122FD9F71A008B6291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		304DF4142FD9F71A008B6291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		304DF4162FD9F71A008B6291 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		304DF4172FD9F71A008B6291 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C84F07395234C65F944C509F /* Pods-180Watchlist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-180Watchlist.debug.xcconfig"; path = "Target Support Files/Pods-180Watchlist/Pods-180Watchlist.debug.xcconfig"; sourceTree = "<group>"; };
+		E2BF6BB81ABD3620867D95EC /* Pods_180Watchlist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_180Watchlist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		301FD44F2FD72A8F0019443E /* Exceptions for "180Watchlist" folder in "180Watchlist" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 301FD43C2FD72A8D0019443E /* 180Watchlist */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		301FD43F2FD72A8D0019443E /* 180Watchlist */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				301FD44F2FD72A8F0019443E /* Exceptions for "180Watchlist" folder in "180Watchlist" target */,
-			);
-			path = 180Watchlist;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		301FD43A2FD72A8D0019443E /* Frameworks */ = {
@@ -45,8 +141,10 @@
 		301FD4342FD72A8D0019443E = {
 			isa = PBXGroup;
 			children = (
-				301FD43F2FD72A8D0019443E /* 180Watchlist */,
+				304DF4182FD9F71A008B6291 /* 180Watchlist */,
 				301FD43E2FD72A8D0019443E /* Products */,
+				B09EF65F944E5BFF1AED7946 /* Pods */,
+				69A06A2F0C684B512D56223C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +156,134 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		304DF3E12FD9F71A008B6291 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				304DF3D82FD9F71A008B6291 /* AppLinks.swift */,
+				304DF3D92FD9F71A008B6291 /* Franchise.swift */,
+				304DF3DA2FD9F71A008B6291 /* MediaCollection.swift */,
+				304DF3DB2FD9F71A008B6291 /* OnboardingPage.swift */,
+				304DF3DC2FD9F71A008B6291 /* WatchGoalSettings.swift */,
+				304DF3DD2FD9F71A008B6291 /* WatchlistFilter.swift */,
+				304DF3DE2FD9F71A008B6291 /* WatchlistModel.swift */,
+				304DF3DF2FD9F71A008B6291 /* WatchlistNavigation.swift */,
+				304DF3E02FD9F71A008B6291 /* WatchNoteEntry.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		304DF3E62FD9F71A008B6291 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				304DF3E22FD9F71A008B6291 /* AppActions.swift */,
+				304DF3E32FD9F71A008B6291 /* NotificationService.swift */,
+				304DF3E42FD9F71A008B6291 /* OnboardingStorageService.swift */,
+				304DF3E52FD9F71A008B6291 /* WatchlistStorageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		304DF3E92FD9F71A008B6291 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				304DF3E72FD9F71A008B6291 /* AppTheme.swift */,
+				304DF3E82FD9F71A008B6291 /* DesignSystem.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		304DF3EB2FD9F71A008B6291 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				304DF3EA2FD9F71A008B6291 /* WatchlistViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		304DF3FD2FD9F71A008B6291 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				304DF3EC2FD9F71A008B6291 /* ActivityHeatmapView.swift */,
+				304DF3ED2FD9F71A008B6291 /* CustomTabBar.swift */,
+				304DF3EE2FD9F71A008B6291 /* EmptyStateView.swift */,
+				304DF3EF2FD9F71A008B6291 /* EpisodeChecklistView.swift */,
+				304DF3F02FD9F71A008B6291 /* FeaturesMenuSheet.swift */,
+				304DF3F12FD9F71A008B6291 /* FormComponents.swift */,
+				304DF3F22FD9F71A008B6291 /* GenreBadgeView.swift */,
+				304DF3F32FD9F71A008B6291 /* HomeWidgets.swift */,
+				304DF3F42FD9F71A008B6291 /* ListCells.swift */,
+				304DF3F52FD9F71A008B6291 /* MainTabBar.swift */,
+				304DF3F62FD9F71A008B6291 /* PosterImageView.swift */,
+				304DF3F72FD9F71A008B6291 /* ShareCardView.swift */,
+				304DF3F82FD9F71A008B6291 /* StarRatingView.swift */,
+				304DF3F92FD9F71A008B6291 /* StatsCardView.swift */,
+				304DF3FA2FD9F71A008B6291 /* StatusBadgeView.swift */,
+				304DF3FB2FD9F71A008B6291 /* TagBadgeView.swift */,
+				304DF3FC2FD9F71A008B6291 /* WatchlistCardView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		304DF40D2FD9F71A008B6291 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				304DF3FD2FD9F71A008B6291 /* Components */,
+				304DF3FE2FD9F71A008B6291 /* CollectionsView.swift */,
+				304DF3FF2FD9F71A008B6291 /* FilterSortSheet.swift */,
+				304DF4002FD9F71A008B6291 /* FranchiseView.swift */,
+				304DF4012FD9F71A008B6291 /* GoalsView.swift */,
+				304DF4022FD9F71A008B6291 /* HomeView.swift */,
+				304DF4032FD9F71A008B6291 /* MonthlyWrapUpView.swift */,
+				304DF4042FD9F71A008B6291 /* OnboardingView.swift */,
+				304DF4052FD9F71A008B6291 /* PickForMeView.swift */,
+				304DF4062FD9F71A008B6291 /* QuickAddView.swift */,
+				304DF4072FD9F71A008B6291 /* SettingsView.swift */,
+				304DF4082FD9F71A008B6291 /* StatsView.swift */,
+				304DF4092FD9F71A008B6291 /* TimelineView.swift */,
+				304DF40A2FD9F71A008B6291 /* WatchlistDetailView.swift */,
+				304DF40B2FD9F71A008B6291 /* WatchlistFormView.swift */,
+				304DF40C2FD9F71A008B6291 /* WatchlistView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		304DF4182FD9F71A008B6291 /* 180Watchlist */ = {
+			isa = PBXGroup;
+			children = (
+				304DF3E12FD9F71A008B6291 /* Models */,
+				304DF3E62FD9F71A008B6291 /* Services */,
+				304DF3E92FD9F71A008B6291 /* Utilities */,
+				304DF3EB2FD9F71A008B6291 /* ViewModels */,
+				304DF40D2FD9F71A008B6291 /* Views */,
+				304DF40E2FD9F71A008B6291 /* AppDelegate.swift */,
+				304DF40F2FD9F71A008B6291 /* Assets.xcassets */,
+				304DF4102FD9F71A008B6291 /* ContentView.swift */,
+				304DF4112FD9F71A008B6291 /* Info.plist */,
+				304DF4132FD9F71A008B6291 /* LaunchScreen.storyboard */,
+				304DF4152FD9F71A008B6291 /* Main.storyboard */,
+				304DF4162FD9F71A008B6291 /* SceneDelegate.swift */,
+				304DF4172FD9F71A008B6291 /* ViewController.swift */,
+			);
+			path = 180Watchlist;
+			sourceTree = "<group>";
+		};
+		69A06A2F0C684B512D56223C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2BF6BB81ABD3620867D95EC /* Pods_180Watchlist.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B09EF65F944E5BFF1AED7946 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C84F07395234C65F944C509F /* Pods-180Watchlist.debug.xcconfig */,
+				166798399F24BF62DE342C57 /* Pods-180Watchlist.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +291,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 301FD4502FD72A8F0019443E /* Build configuration list for PBXNativeTarget "180Watchlist" */;
 			buildPhases = (
+				65FE3B26E11A8252F3A4A54D /* [CP] Check Pods Manifest.lock */,
 				301FD4392FD72A8D0019443E /* Sources */,
 				301FD43A2FD72A8D0019443E /* Frameworks */,
 				301FD43B2FD72A8D0019443E /* Resources */,
@@ -73,12 +300,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				301FD43F2FD72A8D0019443E /* 180Watchlist */,
-			);
 			name = 180Watchlist;
-			packageProductDependencies = (
-			);
 			productName = 180Watchlist;
 			productReference = 301FD43D2FD72A8D0019443E /* 180Watchlist.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +321,7 @@
 				};
 			};
 			buildConfigurationList = 301FD4382FD72A8D0019443E /* Build configuration list for PBXProject "180Watchlist" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +329,6 @@
 				Base,
 			);
 			mainGroup = 301FD4342FD72A8D0019443E;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 301FD43E2FD72A8D0019443E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +343,124 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				304DF44D2FD9F71A008B6291 /* Assets.xcassets in Resources */,
+				304DF44F2FD9F71A008B6291 /* LaunchScreen.storyboard in Resources */,
+				304DF4502FD9F71A008B6291 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65FE3B26E11A8252F3A4A54D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-180Watchlist-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		301FD4392FD72A8D0019443E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				304DF4192FD9F71A008B6291 /* AppLinks.swift in Sources */,
+				304DF41A2FD9F71A008B6291 /* Franchise.swift in Sources */,
+				304DF41B2FD9F71A008B6291 /* MediaCollection.swift in Sources */,
+				304DF41C2FD9F71A008B6291 /* OnboardingPage.swift in Sources */,
+				304DF41D2FD9F71A008B6291 /* WatchGoalSettings.swift in Sources */,
+				304DF41E2FD9F71A008B6291 /* WatchlistFilter.swift in Sources */,
+				304DF41F2FD9F71A008B6291 /* WatchlistModel.swift in Sources */,
+				304DF4202FD9F71A008B6291 /* WatchlistNavigation.swift in Sources */,
+				304DF4212FD9F71A008B6291 /* WatchNoteEntry.swift in Sources */,
+				304DF4222FD9F71A008B6291 /* AppActions.swift in Sources */,
+				304DF4232FD9F71A008B6291 /* NotificationService.swift in Sources */,
+				304DF4242FD9F71A008B6291 /* OnboardingStorageService.swift in Sources */,
+				304DF4252FD9F71A008B6291 /* WatchlistStorageService.swift in Sources */,
+				304DF4262FD9F71A008B6291 /* AppTheme.swift in Sources */,
+				304DF4272FD9F71A008B6291 /* DesignSystem.swift in Sources */,
+				304DF4282FD9F71A008B6291 /* WatchlistViewModel.swift in Sources */,
+				304DF4292FD9F71A008B6291 /* ActivityHeatmapView.swift in Sources */,
+				304DF42A2FD9F71A008B6291 /* CustomTabBar.swift in Sources */,
+				304DF42B2FD9F71A008B6291 /* EmptyStateView.swift in Sources */,
+				304DF42C2FD9F71A008B6291 /* EpisodeChecklistView.swift in Sources */,
+				304DF42D2FD9F71A008B6291 /* FeaturesMenuSheet.swift in Sources */,
+				304DF42E2FD9F71A008B6291 /* FormComponents.swift in Sources */,
+				304DF42F2FD9F71A008B6291 /* GenreBadgeView.swift in Sources */,
+				304DF4302FD9F71A008B6291 /* HomeWidgets.swift in Sources */,
+				304DF4312FD9F71A008B6291 /* ListCells.swift in Sources */,
+				304DF4322FD9F71A008B6291 /* MainTabBar.swift in Sources */,
+				304DF4332FD9F71A008B6291 /* PosterImageView.swift in Sources */,
+				304DF4342FD9F71A008B6291 /* ShareCardView.swift in Sources */,
+				304DF4352FD9F71A008B6291 /* StarRatingView.swift in Sources */,
+				304DF4362FD9F71A008B6291 /* StatsCardView.swift in Sources */,
+				304DF4372FD9F71A008B6291 /* StatusBadgeView.swift in Sources */,
+				304DF4382FD9F71A008B6291 /* TagBadgeView.swift in Sources */,
+				304DF4392FD9F71A008B6291 /* WatchlistCardView.swift in Sources */,
+				304DF43A2FD9F71A008B6291 /* CollectionsView.swift in Sources */,
+				304DF43B2FD9F71A008B6291 /* FilterSortSheet.swift in Sources */,
+				304DF43C2FD9F71A008B6291 /* FranchiseView.swift in Sources */,
+				304DF43D2FD9F71A008B6291 /* GoalsView.swift in Sources */,
+				304DF43E2FD9F71A008B6291 /* HomeView.swift in Sources */,
+				304DF43F2FD9F71A008B6291 /* MonthlyWrapUpView.swift in Sources */,
+				304DF4402FD9F71A008B6291 /* OnboardingView.swift in Sources */,
+				304DF4412FD9F71A008B6291 /* PickForMeView.swift in Sources */,
+				304DF4422FD9F71A008B6291 /* QuickAddView.swift in Sources */,
+				304DF4432FD9F71A008B6291 /* SettingsView.swift in Sources */,
+				304DF4442FD9F71A008B6291 /* StatsView.swift in Sources */,
+				304DF4452FD9F71A008B6291 /* TimelineView.swift in Sources */,
+				304DF4462FD9F71A008B6291 /* WatchlistDetailView.swift in Sources */,
+				304DF4472FD9F71A008B6291 /* WatchlistFormView.swift in Sources */,
+				304DF4482FD9F71A008B6291 /* WatchlistView.swift in Sources */,
+				304DF4492FD9F71A008B6291 /* AppDelegate.swift in Sources */,
+				304DF44A2FD9F71A008B6291 /* ContentView.swift in Sources */,
+				304DF44B2FD9F71A008B6291 /* SceneDelegate.swift in Sources */,
+				304DF44C2FD9F71A008B6291 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		304DF4132FD9F71A008B6291 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				304DF4122FD9F71A008B6291 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		304DF4152FD9F71A008B6291 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				304DF4142FD9F71A008B6291 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		301FD4512FD72A8F0019443E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C84F07395234C65F944C509F /* Pods-180Watchlist.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +468,38 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 180Watchlist/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Watchlist Blueprint";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Choose a poster image for your watchlist entry.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-80Watchlist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rom.w6tchl1stbl83pr1nt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		301FD4522FD72A8F0019443E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 166798399F24BF62DE342C57 /* Pods-180Watchlist.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +507,32 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 180Watchlist/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Watchlist Blueprint";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Choose a poster image for your watchlist entry.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-80Watchlist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rom.w6tchl1stbl83pr1nt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

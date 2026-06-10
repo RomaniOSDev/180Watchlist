@@ -1,0 +1,6 @@
+framework module Pods_180Watchlist {
+  umbrella header "Pods-180Watchlist-umbrella.h"
+
+  export *
+  module * { export * }
+}
